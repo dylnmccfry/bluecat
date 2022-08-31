@@ -23,10 +23,12 @@ For example:
 ## add_networks_from_csv.py
 This script will create networks within parent block by using .csv file. Currently the supported UDF are VLAN and name.
 
-The format is <CIDR>,<NAME>,<VLAN>
+The format is ``<CIDR>,<NAME>,<VLAN>`
 
 For example:
 
 `10.0.0.0/24,SITE A - Foo,900`
+
 `10.1.1.0/24,SITE B - Bar,900`
+
 `10.1.2.0/24,SITE C - Soy,900`
