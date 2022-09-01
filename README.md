@@ -12,7 +12,7 @@ For example:
 ## assign_ipv4_static.py
 This script is used to create a static IPAM entry with a hostname. Create a .csv file named **statc_hosts.csv**
 
-The format is <IP>,<Hostname>
+The format is `IP,HOSTNAME`
 
 For example:
 
@@ -21,9 +21,9 @@ For example:
 `10.10.10.12,my-hostname2`
 
 ## add_networks_from_csv.py
-This script will create networks within parent block by using .csv file. Currently the supported UDF are VLAN and name.
+This script will create networks within parent block by using .csv file. Currently the supported UDF are VLAN and name. Create a .csv file named **import_networks**
 
-The format is ``<CIDR>,<NAME>,<VLAN>`
+The format is ``CIDR,NAME,VLAN`
 
 For example:
 
