@@ -32,3 +32,8 @@ For example:
 `10.1.1.0/24,SITE B - Bar,900`
 
 `10.1.2.0/24,SITE C - Soy,900`
+
+## add_host_record.py
+This script will create A records using entries from the .csv file. Update the host_records.csv file with:
+
+`fqdn,ip`
